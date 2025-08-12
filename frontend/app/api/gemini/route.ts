@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
       )
     }
     
-    const apiKey = 'AIzaSyBcasGTdwItLP05HDjET8tK5lRLZHTBaFE'
+    const apiKey = 'YOUR API KEY'
     const baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'
     
     // Build the full prompt
